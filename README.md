@@ -1,16 +1,47 @@
-# clean_architecture
+# Flutter Clean Architecture Template
 
-A new Flutter project.
+A scalable Flutter project structure implementing Clean Architecture principles.  
+This repository demonstrates how to build maintainable, testable, and modular applications using a well-defined separation of concerns.
 
-## Getting Started
+## Architecture Overview
 
-This project is a starting point for a Flutter application.
+The project follows the Clean Architecture pattern, separating the application into distinct layers:
 
-A few resources to get you started if this is your first Flutter project:
+- Presentation
+- Domain
+- Data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Each layer has a clear responsibility, allowing the project to scale while maintaining code readability and maintainability.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Modular project structure
+- Dependency inversion
+- Separation of concerns
+- Scalable architecture
+- Ready for large Flutter applications
+
+## Folder Structure
+
+lib/
+ ├── core/
+ ├── data/
+ ├── domain/
+ ├── presentation/
+ └── main.dart
+
+## Tech Stack
+
+- Flutter
+- Dart
+- Clean Architecture
+- Repository Pattern
+- Dependency Injection
+
+## Purpose
+
+This project serves as a starting point for building scalable Flutter applications while maintaining clean and testable code.
+
+---
+
+Feel free to use this template as a base for your own Flutter projects.
